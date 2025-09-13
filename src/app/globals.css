@@ -325,3 +325,15 @@ body {
   font-size: 6rem; /* adjust size */
   color: white; /* or your desired color */
 }
+.infinite-slide {
+  animation: infiniteSlide 20s linear infinite;
+}
+
+@keyframes infiniteSlide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

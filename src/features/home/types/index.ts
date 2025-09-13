@@ -6,3 +6,10 @@ export type ITagProps = {
   left: string;
   rotate: string;
 };
+export type ITestimonial = {
+  text: string;
+  name: string;
+  age: string;
+  course: string;
+  image: string;
+};
