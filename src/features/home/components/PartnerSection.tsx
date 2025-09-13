@@ -6,7 +6,7 @@ const PartnerSection = () => {
     <div className="mx-auto mt-0 grid grid-cols-1 gap-37 p-4 md:mt-50 lg:w-9/10 lg:p-0 xl:grid-cols-2">
       <div className="">
         <div className="relative z-0 mt-7.5 flex w-8/10">
-          <p className="relative z-10 inline-block text-[64px] font-extrabold text-white uppercase before:absolute before:bottom-6 before:left-0 before:z-[-1] before:h-[20px] before:w-full before:bg-[#e018e0]">
+          <p className="md: relative z-10 inline-block text-3xl font-extrabold text-white uppercase before:absolute before:bottom-1.5 before:left-0 before:z-[-1] before:h-[20px] before:w-full before:bg-[#e018e0] md:text-4xl lg:text-[64px] lg:before:bottom-6">
             Partner <br /> Institutions
           </p>
         </div>

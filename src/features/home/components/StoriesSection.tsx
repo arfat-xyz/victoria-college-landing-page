@@ -8,7 +8,7 @@ const StoriesSection = () => {
         stories
       </h1>
       <div className="grid grid-cols-1 gap-8">
-        <div className="grid gap-10 lg:grid-cols-2">
+        <div className="grid gap-10 overflow-hidden lg:grid-cols-2">
           <Image
             alt="Story image"
             src={`/img/p-5.jpg`}
