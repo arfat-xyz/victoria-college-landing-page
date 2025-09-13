@@ -35,7 +35,7 @@ const StudentTestimonials = () => {
   ];
 
   return (
-    <div className="mt-50">
+    <div className="mt-10 md:mt-50">
       <div className="mx-auto p-4 lg:w-9/10 lg:p-0">
         <div className="relative z-0 mt-7.5 flex md:w-1/5">
           <p className="relative z-10 inline-block text-[64px] font-extrabold text-white uppercase before:absolute before:bottom-6 before:left-0 before:z-[-1] before:h-[20px] before:w-full before:bg-[#e018e0]">
@@ -48,7 +48,7 @@ const StudentTestimonials = () => {
           {[...testimonials, ...testimonials].map((testimonial, i) => (
             <div
               key={i}
-              className="mt-50 mb-18 flex h-200 w-1/3 flex-shrink-0 rotate-15 items-center justify-center"
+              className="mt-50 mb-18 flex h-100 w-1/2 flex-shrink-0 rotate-15 items-center justify-center md:h-200 md:w-1/3"
               style={{
                 backgroundImage: `url(${testimonial.image})`,
                 backgroundPosition: 'center',

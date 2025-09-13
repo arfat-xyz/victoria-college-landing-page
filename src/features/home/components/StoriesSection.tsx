@@ -4,7 +4,7 @@ import React from 'react';
 const StoriesSection = () => {
   return (
     <div className="mx-auto my-10 p-4 lg:w-9/10 lg:p-0">
-      <h1 className="mt-50 mb-10 text-[64px] font-extrabold text-white uppercase">
+      <h1 className="mt-0 mb-10 text-[64px] font-extrabold text-white uppercase lg:mt-50">
         stories
       </h1>
       <div className="grid grid-cols-1 gap-8">

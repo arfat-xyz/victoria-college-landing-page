@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Campuses = () => {
   return (
-    <div className="bg-navy relative mt-77.5 py-25">
+    <div className="bg-navy relative mt-0 py-25 md:mt-50 lg:mt-77.5">
       <div className="mx-auto w-full lg:w-6/7">
         {/* Image grid */}
         <div className="mx-auto grid grid-cols-3 items-center lg:w-1/2">

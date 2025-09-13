@@ -36,7 +36,7 @@ const TabSection = () => {
           height={709}
         />
         <div className="flex flex-col gap-10 p-4 lg:p-0">
-          <h3 className="lg:text-56 text-2xl md:text-4xl">
+          <h3 className="lg:text-56 text-4xl font-extrabold md:text-6xl">
             What will you study?
           </h3>
           <p className="text-25">
@@ -45,16 +45,16 @@ const TabSection = () => {
             exceptional industry connections, which will help to prepare you for
             a rewarding career in the creative and tech industries.
           </p>{' '}
-          <div className="flex gap-5.5">
+          <div className="flex flex-col gap-5.5 sm:flex-row">
             <button
               type="button"
-              className="bg-blue text-navy hover:text-blue hover:border-blue w-max cursor-pointer border py-4 text-xl font-extrabold transition-colors duration-300 hover:bg-transparent lg:px-4 xl:px-6 2xl:px-8"
+              className="bg-blue text-navy hover:text-blue hover:border-blue w-max cursor-pointer border px-4 py-6 text-xl font-extrabold transition-colors duration-300 hover:bg-transparent lg:px-4 xl:px-6 2xl:px-8"
             >
               View Courses
             </button>
             <button
               type="button"
-              className="text-blue border-blue hover:bg-blue hover:text-navy w-max cursor-pointer border bg-transparent py-4 text-xl font-extrabold transition-colors duration-300 lg:px-4 xl:px-6 2xl:px-8"
+              className="text-blue border-blue hover:bg-blue hover:text-navy w-max cursor-pointer border bg-transparent px-4 py-6 text-xl font-extrabold transition-colors duration-300 lg:px-4 xl:px-6 2xl:px-8"
             >
               Download Prospectus
             </button>

@@ -15,7 +15,7 @@ const TestimonialsSection = () => {
         <Image
           src={`/img/img-6.png`}
           alt="testimonial iamge"
-          className="size-full lg:size-9/10"
+          className="h-80 w-full lg:size-9/10"
           width={1000}
           height={400}
         />
