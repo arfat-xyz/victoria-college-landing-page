@@ -3,7 +3,7 @@ import React from 'react';
 
 const TestimonialsSection = () => {
   return (
-    <div className="grid grid-cols-12">
+    <div className="grid grid-cols-12 pb-40">
       <div className="bg-navy-dark relative col-span-3 p-10">
         <p className="quote-text text-4xl leading-snug font-extrabold text-white">
           A World where <span className="text-blue">EVERYONE has</span> the
@@ -19,7 +19,7 @@ const TestimonialsSection = () => {
           width={1000}
           height={400}
         />
-        <div className="bg-navy absolute right-0 bottom-0 w-7/10 px-12.5 py-17.5">
+        <div className="bg-navy absolute right-0 -bottom-28 w-7/10 px-12.5 py-17.5">
           <div className="gap grid grid-cols-3 items-center justify-center gap-15">
             <p className="text-blue col-span-2 pr-10 text-[40px] font-extrabold">{`There's Still Time
 to Apply for
