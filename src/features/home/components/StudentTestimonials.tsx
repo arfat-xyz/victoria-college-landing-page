@@ -38,7 +38,7 @@ const StudentTestimonials = () => {
     <div className="mt-10 md:mt-50">
       <div className="mx-auto p-4 lg:w-9/10 lg:p-0">
         <div className="relative z-0 mt-7.5 flex md:w-1/5">
-          <p className="relative z-10 inline-block text-[64px] font-extrabold text-white uppercase before:absolute before:bottom-6 before:left-0 before:z-[-1] before:h-[20px] before:w-full before:bg-[#e018e0]">
+          <p className="md: relative z-10 inline-block text-3xl font-extrabold text-white uppercase before:absolute before:bottom-1.5 before:left-0 before:z-[-1] before:h-[20px] before:w-full before:bg-[#e018e0] md:text-4xl lg:text-[64px] lg:before:bottom-6">
             Student Testimonials
           </p>
         </div>
