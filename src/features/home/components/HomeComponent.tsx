@@ -1,9 +1,13 @@
-import { IHome } from '@/features/home/types';
+import HeroSection from '@/features/home/components/HeroSection';
+import NavComponent from '@/features/home/components/NavComponent';
 
 const HomeComponent = () => {
-  const x: IHome = { name: 'arfat' };
-  console.log(x);
-  return <div>HomeComponent</div>;
+  return (
+    <div className="mx-auto w-full bg-red-700 text-white lg:w-6/7">
+      <NavComponent />
+      <HeroSection />
+    </div>
+  );
 };
 
 export default HomeComponent;
