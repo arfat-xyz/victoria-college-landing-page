@@ -36,8 +36,8 @@ const StudentTestimonials = () => {
 
   return (
     <div className="mt-50">
-      <div className="mx-auto w-9/10">
-        <div className="relative z-0 mt-7.5 flex w-1/5">
+      <div className="mx-auto p-4 lg:w-9/10 lg:p-0">
+        <div className="relative z-0 mt-7.5 flex md:w-1/5">
           <p className="relative z-10 inline-block text-[64px] font-extrabold text-white uppercase before:absolute before:bottom-6 before:left-0 before:z-[-1] before:h-[20px] before:w-full before:bg-[#e018e0]">
             Student Testimonials
           </p>
@@ -58,7 +58,7 @@ const StudentTestimonials = () => {
             >
               <div className="absolute inset-0 bg-black/70" />
               <div className="-rotate-15 pl-4">
-                <h3 className="text-[48px] font-extrabold text-white">
+                <h3 className="text-2xl font-extrabold text-white md:text-4xl lg:text-[48px]">
                   {`“ ${testimonial.text} “`}
                 </h3>
                 <p className="uppercase">

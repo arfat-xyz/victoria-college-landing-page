@@ -3,7 +3,7 @@ import React from 'react';
 
 const PartnerSection = () => {
   return (
-    <div className="mx-auto mt-50 grid grid-cols-2 gap-37 lg:w-9/10">
+    <div className="mx-auto mt-50 grid grid-cols-1 gap-37 p-4 lg:w-9/10 lg:p-0 xl:grid-cols-2">
       <div className="">
         <div className="relative z-0 mt-7.5 flex w-8/10">
           <p className="relative z-10 inline-block text-[64px] font-extrabold text-white uppercase before:absolute before:bottom-6 before:left-0 before:z-[-1] before:h-[20px] before:w-full before:bg-[#e018e0]">
@@ -21,7 +21,7 @@ const PartnerSection = () => {
           corrupti
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-14">
+      <div className="grid grid-cols-1 gap-14 md:grid-cols-2 xl:grid-cols-1">
         <Image
           alt="Partner image"
           src={`/img/img-10.png`}
@@ -33,7 +33,7 @@ const PartnerSection = () => {
           src={`/img/img-11.png`}
           width={685}
           height={167}
-          className="h-35 w-3/5"
+          className="h-35 xl:w-3/5"
         />
       </div>
     </div>

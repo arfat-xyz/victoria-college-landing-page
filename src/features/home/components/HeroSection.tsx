@@ -7,10 +7,10 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="grid w-full gap-10 overflow-hidden px-5 py-10 md:grid-cols-2 md:px-20 md:py-20">
+    <section className="grid w-full grid-cols-1 gap-10 overflow-hidden px-4 py-10 lg:grid-cols-2 lg:p-10 lg:py-20">
       {/* Text Section */}
       <div className="flex flex-col justify-center space-y-6">
-        <h1 className="text-5xl leading-tight font-extrabold uppercase md:text-[130px]">
+        <h1 className="text-5xl leading-tight font-extrabold uppercase md:text-[100px] lg:text-[90px] xl:text-[130px]">
           Welcome to VCAD
         </h1>
         <p className="text-lg text-gray-100 md:text-2xl">

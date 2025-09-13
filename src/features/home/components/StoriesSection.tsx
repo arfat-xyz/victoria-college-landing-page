@@ -3,21 +3,21 @@ import React from 'react';
 
 const StoriesSection = () => {
   return (
-    <div className="mx-auto my-10 lg:w-9/10">
+    <div className="mx-auto my-10 p-4 lg:w-9/10 lg:p-0">
       <h1 className="mt-50 mb-10 text-[64px] font-extrabold text-white uppercase">
         stories
       </h1>
       <div className="grid grid-cols-1 gap-8">
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid gap-10 lg:grid-cols-2">
           <Image
             alt="Story image"
             src={`/img/p-5.jpg`}
-            className="h-180 pr-20"
+            className="h-180 w-full lg:pr-20"
             width={677}
             height={709}
           />
           <div className="pr-16">
-            <h3 className="text-[64px] font-extrabold uppercase">
+            <h3 className="mb-6 text-4xl font-extrabold uppercase md:text-[40px] lg:text-[64px]">
               Induction in VCAD Canary Wharf campus
             </h3>
             <p className="text-2xl font-normal">
@@ -42,17 +42,17 @@ const StoriesSection = () => {
             </div>
           </div>
         </div>
-        <div className="mt-10 grid grid-cols-2 gap-10">
+        <div className="grid gap-10 lg:grid-cols-2">
           <Image
             alt="Story image"
             src={`/img/p-6.jpg`}
-            className="h-180 pr-20"
+            className="h-180 w-full lg:pr-20"
             width={677}
             height={709}
           />
           <div className="">
-            <h3 className="text-[64px] font-extrabold uppercase">
-              Be ready for applying! Five tips to{' '}
+            <h3 className="mb-6 text-4xl font-extrabold uppercase md:text-[40px] lg:text-[64px]">
+              Be ready for applying! Five tips to <br />
               <span className="text-pink">build your portfolio</span>
             </h3>
             <p className="text-2xl font-normal">
