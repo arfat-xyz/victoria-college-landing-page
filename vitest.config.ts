@@ -7,11 +7,7 @@ export default defineConfig({
   server: {
     port: 3000,
     watch: {
-      ignored: [
-        '**/node_modules/**',
-        '**/build/**',
-        '**/postgres-data/**',
-      ],
+      ignored: ['**/node_modules/**', '**/build/**', '**/postgres-data/**'],
     },
   },
   test: {

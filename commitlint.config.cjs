@@ -6,5 +6,5 @@ const config = {
     'body-max-line-length': [0, 'always'],
   },
 };
- 
+
 module.exports = config;
