@@ -1,7 +1,43 @@
+import Image from 'next/image';
 import React from 'react';
 
 const TestimonialsSection = () => {
-  return <div>TestimonialsSection</div>;
+  return (
+    <div className="grid grid-cols-12">
+      <div className="bg-navy-dark relative col-span-3 p-10">
+        <p className="quote-text text-4xl leading-snug font-extrabold text-white">
+          A World where <span className="text-blue">EVERYONE has</span> the
+          <span className="text-blue">opportunity</span> to fulfil their
+          potential
+        </p>
+      </div>
+      <div className="relative col-span-9">
+        <Image
+          src={`/img/img-6.png`}
+          alt="testimonial iamge"
+          className="size-9/10"
+          width={1000}
+          height={400}
+        />
+        <div className="bg-navy absolute right-0 bottom-0 w-7/10 px-12.5 py-17.5">
+          <div className="gap grid grid-cols-3 items-center justify-center gap-15">
+            <p className="text-blue col-span-2 pr-10 text-[40px] font-extrabold">{`There's Still Time
+to Apply for
+September 2025`}</p>{' '}
+            <div className="">
+              {' '}
+              <button
+                type="button"
+                className="bg-blue text-navy hover:text-blue hover:border-blue w-max cursor-pointer border px-8 py-4 text-xl font-extrabold transition-colors duration-300 hover:bg-transparent"
+              >
+                View Courses
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default TestimonialsSection;

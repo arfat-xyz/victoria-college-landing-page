@@ -48,7 +48,7 @@ const TabSection = () => {
               type="button"
               className="bg-blue text-navy hover:text-blue hover:border-blue w-max cursor-pointer border px-8 py-4 text-xl font-extrabold transition-colors duration-300 hover:bg-transparent"
             >
-              Apply Now
+              View Courses
             </button>
             <button
               type="button"
