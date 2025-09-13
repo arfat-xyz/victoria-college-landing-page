@@ -11,7 +11,7 @@ const TabSection = () => {
     <div className="">
       <div className="flex items-center justify-center">
         {/* tabs header  */}
-        <div className="border-pink flex gap-3.5 border p-7.5">
+        <div className="border-pink flex flex-wrap gap-3.5 border p-7.5 lg:flex-nowrap">
           {tabs.map((t, i) => (
             <button
               key={i}

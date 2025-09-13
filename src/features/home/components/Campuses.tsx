@@ -6,8 +6,8 @@ const Campuses = () => {
     <div className="bg-navy relative mt-77.5 py-25">
       <div className="mx-auto w-full lg:w-6/7">
         {/* Image grid */}
-        <div className="mx-auto grid w-1/2 grid-cols-3 items-center">
-          <div className="relative -mt-70 aspect-[245/485] w-full">
+        <div className="mx-auto grid grid-cols-3 items-center lg:w-1/2">
+          <div className="relative aspect-[245/485] w-full lg:-mt-70">
             <Image
               alt="Image"
               fill
@@ -15,7 +15,7 @@ const Campuses = () => {
               src="/img/img-7.jpg"
             />
           </div>
-          <div className="relative -mt-70 aspect-[245/485] w-full">
+          <div className="relative aspect-[245/485] w-full lg:-mt-70">
             <Image
               alt="Image"
               fill
@@ -23,7 +23,7 @@ const Campuses = () => {
               src="/img/img-8.jpg"
             />
           </div>
-          <div className="relative -mt-70 aspect-[245/485] w-full">
+          <div className="relative aspect-[245/485] w-full lg:-mt-70">
             <Image
               alt="Image"
               fill

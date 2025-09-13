@@ -6,6 +6,7 @@ import PartnerSection from '@/features/home/components/PartnerSection';
 import StoriesSection from '@/features/home/components/StoriesSection';
 import StudentTestimonials from '@/features/home/components/StudentTestimonials';
 import TabSection from '@/features/home/components/TabSection';
+import TestimonialsSection from '@/features/home/components/TestimonialsSection';
 
 const HomeComponent = () => {
   return (
@@ -14,7 +15,7 @@ const HomeComponent = () => {
         <NavComponent />
         <HeroSection />
         <TabSection />
-        {/* <TestimonialsSection /> */}
+        <TestimonialsSection />
       </div>
       <Campuses />
       <PartnerSection />
